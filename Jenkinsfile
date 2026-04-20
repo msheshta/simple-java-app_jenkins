@@ -1,5 +1,5 @@
 node{
-    git branch: 'main', url: 'https://github.com/DinaGamalMahmoud/simple-java-app.git'
+    git branch: 'main', url: 'https://github.com/msheshta/simple-java-app_jenkins.git'
     stage('build'){
         try{
             sh'echo "build stage"'
