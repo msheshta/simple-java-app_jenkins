@@ -1,5 +1,5 @@
 node{
-    git branch: 'main', url: 'https://github.com/msheshta/simple-java-app_jenkins.git'
+    git branch: 'revert-1-deployment', url: 'https://github.com/msheshta/simple-java-app_jenkins.git'
     stage('build'){
         try{
             sh'echo "build stage"'
