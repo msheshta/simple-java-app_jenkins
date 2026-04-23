@@ -1,6 +1,5 @@
 pipeline{
-    agent {
-    label 'jenkins-mvn-agent'
+    agent any
     }
     stages{
         stage('build'){
